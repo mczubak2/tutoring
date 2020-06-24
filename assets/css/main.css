@@ -2128,6 +2128,10 @@ button:hover:active:after,
 	border-left: solid 1px rgba(255, 255, 255, 0.15);
 }
 
+.features section:last-child {
+	width: 100%;
+}
+
 .features section .icon {
 	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 	-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
