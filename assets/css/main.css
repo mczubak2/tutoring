@@ -3180,6 +3180,7 @@ body.is-ie .spotlights>section {
 	-ms-flex: 1;
 }
 
+
 .spotlights>section>.content>.inner {
 	-moz-transform: translateX(0) translateY(0);
 	-webkit-transform: translateX(0) translateY(0);
@@ -3192,13 +3193,13 @@ body.is-ie .spotlights>section {
 	opacity: 1;
 }
 
-.spotlights>section:nth-child(2) {
+.spotlights>section:nth-child(odd) {
 	background-color: rgba(0, 0, 0, 0.05);
 }
 
-.spotlights>section:nth-child(3) {
+/* .spotlights>section:nth-child(3) {
 	background-color: rgba(0, 0, 0, 0.1);
-}
+} */
 
 .spotlights>section.inactive>.image:before,
 body.is-preload .spotlights>section>.image:before {
